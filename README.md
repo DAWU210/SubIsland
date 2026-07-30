@@ -67,11 +67,11 @@ SubIsland is a lightweight top-center status island for macOS and Windows. It mo
 
 | 平台 · Platform | 文件 · File | 用途 · Use |
 | --- | --- | --- |
-| macOS | [DMG](https://github.com/DAWU210/SubIsland/releases/download/v1.0.0/SubIsland-1.0.0-macOS-Universal.dmg) | 推荐安装方式 · Recommended installer |
-| macOS | [ZIP](https://github.com/DAWU210/SubIsland/releases/download/v1.0.0/SubIsland-1.0.0-macOS-Universal.zip) | 便携应用压缩包 · Portable app archive |
-| Windows x64 | [EXE](https://github.com/DAWU210/SubIsland/releases/download/v1.0.0/SubIsland-1.0.0-Windows-x64.exe) | 自包含便携程序 · Self-contained portable app |
-| Windows x64 | [ZIP](https://github.com/DAWU210/SubIsland/releases/download/v1.0.0/SubIsland-1.0.0-Windows-x64.zip) | EXE 压缩包 · Portable archive |
-| 校验 · Checksums | [macOS](https://github.com/DAWU210/SubIsland/releases/download/v1.0.0/SHA256SUMS.txt) · [Windows](https://github.com/DAWU210/SubIsland/releases/download/v1.0.0/SHA256SUMS-Windows.txt) | SHA-256 下载完整性校验 |
+| macOS | [DMG](https://github.com/DAWU210/SubIsland/releases/download/v1.1.0/SubIsland-1.1.0-macOS-Universal.dmg) | 推荐安装方式 · Recommended installer |
+| macOS | [ZIP](https://github.com/DAWU210/SubIsland/releases/download/v1.1.0/SubIsland-1.1.0-macOS-Universal.zip) | 便携应用压缩包 · Portable app archive |
+| Windows x64 | [EXE](https://github.com/DAWU210/SubIsland/releases/download/v1.1.0/SubIsland-1.1.0-Windows-x64.exe) | 自包含便携程序 · Self-contained portable app |
+| Windows x64 | [ZIP](https://github.com/DAWU210/SubIsland/releases/download/v1.1.0/SubIsland-1.1.0-Windows-x64.zip) | EXE 压缩包 · Portable archive |
+| 校验 · Checksums | [macOS](https://github.com/DAWU210/SubIsland/releases/download/v1.1.0/SHA256SUMS.txt) · [Windows](https://github.com/DAWU210/SubIsland/releases/download/v1.1.0/SHA256SUMS-Windows.txt) | SHA-256 下载完整性校验 |
 
 **系统要求 · Requirements**
 
@@ -83,9 +83,9 @@ SubIsland is a lightweight top-center status island for macOS and Windows. It mo
 
 **macOS**
 
-> 当前 macOS 安装包为 ad-hoc 签名。首次运行时，请在 Finder 中右键点击 `SubIsland.app`，选择“打开”。
+> 当前 macOS 安装包采用固定的本地证书签名，但尚未经过 Apple 公证。首次运行时，请在 Finder 中右键点击 `SubIsland.app`，选择“打开”。
 >
-> The macOS build is ad-hoc signed. On first launch, right-click `SubIsland.app` in Finder and choose **Open**.
+> The macOS build uses a stable local signing certificate but is not Apple-notarized. On first launch, right-click `SubIsland.app` in Finder and choose **Open**.
 
 **Windows**
 
